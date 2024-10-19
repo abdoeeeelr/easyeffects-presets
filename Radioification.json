@@ -364,11 +364,11 @@
             "wet": 0.0
         },
         "plugins_order": [
+            "equalizer#0",
             "autogain#0",
             "bass_enhancer#0",
             "multiband_compressor#0",
             "compressor#0",
-            "equalizer#0",
             "limiter#0"
         ]
     }
