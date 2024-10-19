@@ -21,6 +21,37 @@
             "scope": 150.0
         },
         "blocklist": [],
+        "compressor#0": {
+            "attack": 5.0,
+            "boost-amount": 6.0,
+            "boost-threshold": -72.0,
+            "bypass": false,
+            "dry": -100.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 0.0,
+            "knee": -6.0,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 0.0,
+            "mode": "Downward",
+            "output-gain": -3.0,
+            "ratio": 100.0,
+            "release": 5.0,
+            "release-threshold": -100.0,
+            "sidechain": {
+                "lookahead": 1.0,
+                "mode": "Peak",
+                "preamp": 0.0,
+                "reactivity": 10.0,
+                "source": "Middle",
+                "stereo-split-source": "Left/Right",
+                "type": "Feed-forward"
+            },
+            "stereo-split": false,
+            "threshold": -5.999999523162842,
+            "wet": 0.0
+        },
         "limiter#0": {
             "alr": false,
             "alr-attack": 5.0,
@@ -181,8 +212,8 @@
                 "stereo-split-source": "Left/Right"
             },
             "band5": {
-                "attack-threshold": -23.999998092651367,
-                "attack-time": 8.0,
+                "attack-threshold": -40.0,
+                "attack-time": 4.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
                 "compression-mode": "Downward",
@@ -190,7 +221,7 @@
                 "enable-band": true,
                 "external-sidechain": false,
                 "knee": -6.0,
-                "makeup": 0.0,
+                "makeup": 15.0,
                 "mute": false,
                 "ratio": 4.0,
                 "release-threshold": -100.0,
@@ -269,7 +300,7 @@
             "dry": -100.0,
             "envelope-boost": "None",
             "input-gain": 23.0,
-            "output-gain": -6.0,
+            "output-gain": 0.0,
             "stereo-split": false,
             "wet": 0.0
         },
@@ -277,6 +308,7 @@
             "autogain#0",
             "bass_enhancer#0",
             "multiband_compressor#0",
+            "compressor#0",
             "limiter#0"
         ]
     }
