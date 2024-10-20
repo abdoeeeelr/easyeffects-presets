@@ -10,34 +10,34 @@
             "target": -23.0
         },
         "bass_enhancer#0": {
-            "amount": 6.0,
+            "amount": 12.0,
             "blend": 0.0,
             "bypass": false,
-            "floor": 20.0,
-            "floor-active": false,
+            "floor": 30.0,
+            "floor-active": true,
             "harmonics": 8.5,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 150.0
+            "scope": 120.0
         },
         "blocklist": [],
         "compressor#0": {
-            "attack": 5.0,
+            "attack": 2.0,
             "boost-amount": 6.0,
             "boost-threshold": -72.0,
             "bypass": false,
             "dry": -100.0,
             "hpf-frequency": 10.0,
             "hpf-mode": "off",
-            "input-gain": 0.0,
-            "knee": -6.0,
+            "input-gain": 4.0,
+            "knee": -5.999999523162842,
             "lpf-frequency": 20000.0,
             "lpf-mode": "off",
             "makeup": 0.0,
             "mode": "Downward",
-            "output-gain": -3.0,
-            "ratio": 100.0,
-            "release": 5.0,
+            "output-gain": -4.0,
+            "ratio": 12.0,
+            "release": 4.0,
             "release-threshold": -100.0,
             "sidechain": {
                 "lookahead": 1.0,
@@ -49,7 +49,7 @@
                 "type": "Feed-forward"
             },
             "stereo-split": false,
-            "threshold": -5.999999523162842,
+            "threshold": -3.0,
             "wet": 0.0
         },
         "equalizer#0": {
@@ -63,7 +63,7 @@
                     "mode": "LRX (BT)",
                     "mute": false,
                     "q": 0.0,
-                    "slope": "x4",
+                    "slope": "x2",
                     "solo": false,
                     "type": "Hi-pass",
                     "width": 4.0
@@ -80,7 +80,7 @@
                     "width": 4.0
                 }
             },
-            "mode": "IIR",
+            "mode": "SPM",
             "num-bands": 2,
             "output-gain": 0.0,
             "pitch-left": 0.0,
@@ -92,7 +92,7 @@
                     "mode": "LRX (BT)",
                     "mute": false,
                     "q": 0.0,
-                    "slope": "x4",
+                    "slope": "x2",
                     "solo": false,
                     "type": "Hi-pass",
                     "width": 4.0
@@ -123,7 +123,7 @@
             "gain-boost": true,
             "input-gain": 0.0,
             "lookahead": 10.0,
-            "mode": "Herm Duck",
+            "mode": "Herm Thin",
             "output-gain": -0.2,
             "oversampling": "Full x8(3L)",
             "release": 20.0,
@@ -187,7 +187,7 @@
                 "stereo-split-source": "Left/Right"
             },
             "band2": {
-                "attack-threshold": -23.999998092651367,
+                "attack-threshold": -18.0,
                 "attack-time": 800.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
@@ -198,7 +198,7 @@
                 "knee": -6.0,
                 "makeup": 0.0,
                 "mute": false,
-                "ratio": 4.0,
+                "ratio": 3.0,
                 "release-threshold": -100.0,
                 "release-time": 1000.0,
                 "sidechain-custom-highcut-filter": false,
@@ -226,7 +226,7 @@
                 "knee": -6.0,
                 "makeup": 0.0,
                 "mute": false,
-                "ratio": 4.0,
+                "ratio": 3.0,
                 "release-threshold": -100.0,
                 "release-time": 1000.0,
                 "sidechain-custom-highcut-filter": false,
@@ -239,7 +239,7 @@
                 "sidechain-reactivity": 10.0,
                 "sidechain-source": "Middle",
                 "solo": false,
-                "split-frequency": 500.0,
+                "split-frequency": 880.0,
                 "stereo-split-source": "Left/Right"
             },
             "band4": {
@@ -254,7 +254,7 @@
                 "knee": -6.0,
                 "makeup": 0.0,
                 "mute": false,
-                "ratio": 4.0,
+                "ratio": 3.0,
                 "release-threshold": -100.0,
                 "release-time": 1000.0,
                 "sidechain-custom-highcut-filter": false,
@@ -267,12 +267,12 @@
                 "sidechain-reactivity": 10.0,
                 "sidechain-source": "Middle",
                 "solo": false,
-                "split-frequency": 2000.0,
+                "split-frequency": 2400.0,
                 "stereo-split-source": "Left/Right"
             },
             "band5": {
-                "attack-threshold": -40.0,
-                "attack-time": 4.0,
+                "attack-threshold": -32.0,
+                "attack-time": 8.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
                 "compression-mode": "Downward",
@@ -280,11 +280,11 @@
                 "enable-band": true,
                 "external-sidechain": false,
                 "knee": -6.0,
-                "makeup": 15.0,
+                "makeup": 7.0,
                 "mute": false,
                 "ratio": 4.0,
                 "release-threshold": -100.0,
-                "release-time": 50.0,
+                "release-time": 100.0,
                 "sidechain-custom-highcut-filter": false,
                 "sidechain-custom-lowcut-filter": false,
                 "sidechain-highcut-frequency": 12000.0,
@@ -295,7 +295,7 @@
                 "sidechain-reactivity": 10.0,
                 "sidechain-source": "Middle",
                 "solo": false,
-                "split-frequency": 6000.0,
+                "split-frequency": 6500.0,
                 "stereo-split-source": "Left/Right"
             },
             "band6": {
@@ -359,16 +359,16 @@
             "dry": -100.0,
             "envelope-boost": "None",
             "input-gain": 23.0,
-            "output-gain": 0.0,
+            "output-gain": -4.0,
             "stereo-split": false,
             "wet": 0.0
         },
         "plugins_order": [
-            "equalizer#0",
             "autogain#0",
             "bass_enhancer#0",
             "multiband_compressor#0",
             "compressor#0",
+            "equalizer#0",
             "limiter#0"
         ]
     }
