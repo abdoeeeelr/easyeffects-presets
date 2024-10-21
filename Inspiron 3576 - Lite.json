@@ -106,7 +106,7 @@
                     "width": 4.0
                 }
             },
-            "mode": "SPM",
+            "mode": "IIR",
             "num-bands": 8,
             "output-gain": 0.0,
             "pitch-left": 0.0,
@@ -214,14 +214,14 @@
             "external-sidechain": false,
             "gain-boost": true,
             "input-gain": 0.0,
-            "lookahead": 10.0,
+            "lookahead": 20.0,
             "mode": "Herm Duck",
             "output-gain": -0.2,
             "oversampling": "Full x8(2L)",
             "release": 20.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
-            "threshold": -5.999999523162842
+            "threshold": -6.0
         },
         "plugins_order": [
             "bass_enhancer#0",
