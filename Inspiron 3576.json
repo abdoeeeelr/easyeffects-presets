@@ -208,20 +208,20 @@
             "alr-attack": 10.0,
             "alr-knee": 3.0,
             "alr-release": 25.0,
-            "attack": 20.0,
+            "attack": 16.0,
             "bypass": false,
             "dithering": "None",
             "external-sidechain": false,
             "gain-boost": true,
             "input-gain": 0.0,
-            "lookahead": 10.0,
-            "mode": "Herm Thin",
+            "lookahead": 20.0,
+            "mode": "Herm Duck",
             "output-gain": -0.2,
             "oversampling": "Full x8(2L)",
             "release": 20.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
-            "threshold": -3.999999761581421
+            "threshold": -6.0
         },
         "multiband_compressor#0": {
             "band0": {
