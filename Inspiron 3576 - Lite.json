@@ -208,7 +208,7 @@
             "alr-attack": 10.0,
             "alr-knee": 3.0,
             "alr-release": 25.0,
-            "attack": 20.0,
+            "attack": 16.0,
             "bypass": false,
             "dithering": "None",
             "external-sidechain": false,
@@ -221,7 +221,7 @@
             "release": 20.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
-            "threshold": -6.0
+            "threshold": -3.5
         },
         "plugins_order": [
             "bass_enhancer#0",
