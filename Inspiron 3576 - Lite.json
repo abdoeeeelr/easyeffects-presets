@@ -63,7 +63,7 @@
                 },
                 "band4": {
                     "frequency": 500.0,
-                    "gain": 4.000000476837158,
+                    "gain": -2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 1.0,
@@ -191,7 +191,7 @@
                 },
                 "band4": {
                     "frequency": 500.0,
-                    "gain": 4.000000476837158,
+                    "gain": -2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 1.0,

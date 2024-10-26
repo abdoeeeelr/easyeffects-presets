@@ -74,7 +74,7 @@
                 },
                 "band4": {
                     "frequency": 500.0,
-                    "gain": 4.000000476837158,
+                    "gain": -2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 1.0,
@@ -202,7 +202,7 @@
                 },
                 "band4": {
                     "frequency": 500.0,
-                    "gain": 4.000000476837158,
+                    "gain": -2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 1.0,
@@ -269,9 +269,6 @@
             },
             "split-channels": false
         },
-        "level_meter#0": {
-            "bypass": false
-        },
         "limiter#0": {
             "alr": false,
             "alr-attack": 10.0,
@@ -295,18 +292,18 @@
         "multiband_compressor#0": {
             "band0": {
                 "attack-threshold": -23.999998092651367,
-                "attack-time": 100.0,
+                "attack-time": 400.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
                 "compression-mode": "Downward",
                 "compressor-enable": true,
                 "external-sidechain": false,
                 "knee": -6.0,
-                "makeup": 0.0,
+                "makeup": 3.0,
                 "mute": false,
                 "ratio": 8.0,
                 "release-threshold": -100.0,
-                "release-time": 200.0,
+                "release-time": 500.0,
                 "sidechain-custom-highcut-filter": false,
                 "sidechain-custom-lowcut-filter": false,
                 "sidechain-highcut-frequency": 500.0,
@@ -528,8 +525,7 @@
             "bass_enhancer#0",
             "equalizer#0",
             "multiband_compressor#0",
-            "limiter#0",
-            "level_meter#0"
+            "limiter#0"
         ]
     }
 }
