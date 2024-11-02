@@ -6,4 +6,4 @@
 | `Crystalized Crap` | Supposed to be used with crappy earphone. Crystalizer is the heart of this preset. Multiband compressor reduces harsh high caused by Crystalizer and adjusted to my liking. (still need to tweak it tbh, Crystalizer is weird) |
 | `Radioification` | A preset that kinda resembles average radio station audio processor. It has Autogain for stable volume and Bass Enhancer to thicken and warm the bass. Also, I use Classic mode on MB compressor to give "boomy" non-phase linear bass. You might find it fatiguing to listen for long time as the compressor is pretty aggressive. |
 
-Feel free to do whatever with my presets, idc
+Feel free to do whatever with my presets, as it's still kinda sucks imo
